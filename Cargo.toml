@@ -6,6 +6,10 @@ authors = [
 ]
 keywords = ["timer", "controller", "piston"]
 description = "A timer controller"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PistonDevelopers/timer_controller.git"
+homepage = "https://github.com/PistonDevelopers/timer_controller"
 
 [lib]
 name = "timer_controller"
