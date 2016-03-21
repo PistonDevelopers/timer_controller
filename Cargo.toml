@@ -1,6 +1,6 @@
 [package]
 name = "piston-timer_controller"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
     "bvssvni <bvssvni@gmail.com>"
 ]
@@ -16,4 +16,4 @@ name = "timer_controller"
 path = "./src/lib.rs"
 
 [dependencies]
-pistoncore-input = "0.8.0"
+pistoncore-input = "0.9.0"
