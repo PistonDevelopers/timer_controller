@@ -30,8 +30,6 @@ impl Timer {
     ///
     /// The timing is inaccurate for less intervals than the update interval.
     pub fn event<E: GenericEvent, F: FnMut()>(&mut self, e: &E, mut f: F) {
-        use input::UpdateEvent;
-
         if let Some(args) = e.update_args() {
             self.time = self.time + args.dt;
             while self.next <= self.time {
